@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MusicPartner</string>
+    <string name="button_c">c</string>
+    <string name="button_d">d</string>
+    <string name="button_e">e</string>
+    <string name="button_f">f</string>
+    <string name="button_g">g</string>
+    <string name="button_a">a</string>
+    <string name="button_b">b</string>
+    <string name="button_c_flat">c#</string>
+    <string name="button_d_flat">d#</string>
+    <string name="button_e_flat">e#</string>
+    <string name="button_f_flat">f#</string>
+    <string name="button_g_flat">g#</string>
+    <string name="button_a_flat">a#</string>
+    <string name="button_b_flat">b#</string>
+    <string name="sheet_music">sheet Music</string>
+</resources>

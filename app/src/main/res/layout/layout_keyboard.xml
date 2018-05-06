@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageButton
+        android:id="@+id/key_0"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="0dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/white_keyboard_selector"
+         />
+
+    <ImageButton
+        android:id="@+id/key_2"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="1:1.9"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toEndOf="@+id/key_0"
+        app:layout_constraintTop_toTopOf="@+id/key_0"
+        app:srcCompat="@drawable/white_shadow_keyboard_selector" />
+
+    <ImageButton
+        android:id="@+id/key_4"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="1:1.9"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toEndOf="@+id/key_2"
+        app:layout_constraintTop_toTopOf="@+id/key_2"
+        app:srcCompat="@drawable/white_shadow_keyboard_selector" />
+
+    <ImageButton
+        android:id="@+id/key_5"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="1:1.9"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toEndOf="@+id/key_4"
+        app:layout_constraintTop_toTopOf="@+id/key_4"
+        app:srcCompat="@drawable/white_keyboard_selector"
+         />
+
+    <ImageButton
+        android:id="@+id/key_7"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="1:1.9"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toEndOf="@+id/key_5"
+        app:layout_constraintTop_toTopOf="@+id/key_5"
+        app:srcCompat="@drawable/white_shadow_keyboard_selector" />
+
+    <ImageButton
+        android:id="@+id/key_9"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="1:1.9"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toEndOf="@+id/key_7"
+        app:layout_constraintTop_toTopOf="@+id/key_7"
+        app:srcCompat="@drawable/white_shadow_keyboard_selector" />
+
+    <ImageButton
+        android:id="@+id/key_11"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="1:1.9"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toEndOf="@+id/key_9"
+        app:layout_constraintTop_toTopOf="@+id/key_9"
+        app:srcCompat="@drawable/white_shadow_keyboard_selector"  />
+
+    <ImageButton
+        android:id="@+id/key_1"
+        android:layout_width="55dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="72dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintDimensionRatio="0.9:1.9"
+        app:layout_constraintEnd_toEndOf="@+id/key_2"
+        app:layout_constraintTop_toTopOf="@+id/key_0"
+        app:srcCompat="@drawable/black_keyboard_selector"  />
+
+    <ImageButton
+        android:id="@+id/key_3"
+        android:layout_width="55dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="72dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintDimensionRatio="0.9:1.9"
+        app:layout_constraintTop_toTopOf="@+id/key_2"
+        app:layout_constraintEnd_toEndOf="@+id/key_4"
+        app:srcCompat="@drawable/black_keyboard_selector"/>
+
+    <ImageButton
+        android:id="@+id/key_6"
+        android:layout_width="55dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="72dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintDimensionRatio="0.9:1.9"
+        app:layout_constraintTop_toTopOf="@+id/key_5"
+        app:layout_constraintEnd_toEndOf="@+id/key_7"
+        app:srcCompat="@drawable/black_keyboard_selector" />
+
+    <ImageButton
+        android:id="@+id/key_8"
+        android:layout_width="55dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="72dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintDimensionRatio="0.9:1.9"
+        app:layout_constraintTop_toTopOf="@+id/key_7"
+        app:layout_constraintEnd_toEndOf="@+id/key_9"
+        app:srcCompat="@drawable/black_keyboard_selector"/>
+
+    <ImageButton
+        android:id="@+id/key_10"
+        android:layout_width="55dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="72dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintDimensionRatio="0.9:1.9"
+        app:layout_constraintTop_toTopOf="@+id/key_9"
+        app:layout_constraintEnd_toEndOf="@+id/key_11"
+        app:srcCompat="@drawable/black_keyboard_selector" />
+
+
+</android.support.constraint.ConstraintLayout>
